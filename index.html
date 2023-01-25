@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bikers zone</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4a0b5c3325.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <!-- nav  -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active fw-semibold" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="#">bikes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="#">blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="#">info</a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-outline-success ms-5" type="submit">Search</button>
+                    </div>
+                </div>
+            </nav>
+            <!-- banner  -->
+            <div id="carouselExample" class="carousel slide bg-danger bg-opacity-10 p-5">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-12 col-md-6 d-flex align-items-center">
+                                <div>
+                                    <h1>Brand New Bike</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, animi.</p>
+                                    <button class="btn btn-primary">Bay Now</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <img src="./images/andrew-pons-cLHPacdtpSY-unsplash.jpg" class="d-block w-100 rounded"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-md-6 d-flex align-items-center">
+                                <div>
+                                    <h1>Brand New Bike</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, animi.</p>
+                                    <button class="btn btn-primary">Bay Now</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <img src="./images/andrew-pons-cLHPacdtpSY-unsplash.jpg" class="d-block w-100 rounded"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-md-6 d-flex align-items-center">
+                                <div>
+                                    <h1>Brand New Bike</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, animi.</p>
+                                    <button class="btn btn-primary">Bay Now</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <img src="./images/andrew-pons-cLHPacdtpSY-unsplash.jpg" class="d-block w-100 rounded"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bz-light-red" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bz-light-red" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+        <!-- main -->
+        <main>
+            <!-- Hot Bike section  -->
+            <section class="text-start text-md-center mt-5">
+                <h1>Hot Bikes In This Years</h1>
+                <p class="text-danger">Lorem ipsum dolor sit amet.</p>
+                <hr class="w-25 border-danger mx-auto">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 my-4 px-5">
+                    <div class="col">
+                        <img src="./images/andrew-pons-cLHPacdtpSY-unsplash.jpg" class="w-100 rounded" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./images/andrew-pons-cLHPacdtpSY-unsplash.jpg" class="w-75 rounded" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./images/andrew-pons-cLHPacdtpSY-unsplash.jpg" class="w-100 rounded" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- new arrives  -->
+            <section class="bg-info bg-opacity-25 p-5">
+                <h1 class="text-center">New Arrives</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                    <div class="col rounded-4">
+                        <div class="card h-100">
+                            <img src="./images/andrew-pons-cLHPacdtpSY-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger">Bay</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col rounded-4">
+                        <div class="card h-100">
+                            <img src="./images/andrew-pons-cLHPacdtpSY-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger">Bay</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col rounded-4">
+                        <div class="card h-100">
+                            <img src="./images/andrew-pons-cLHPacdtpSY-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger">Bay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- happy Clients -->
+            <section class="m-5">
+                <h1 class="text-center mb-4">Happy <span class="text-danger-emphasis">Clients</span></h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
+                                class="card-img-top h-25 w-25 mt-5 mb-2 mx-auto rounded-circle" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a short card. This content is a little bit longer.below as
+                                    a natural lead-in to additional content.</p>
+                                <p class="text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </p>
+                                <h5 class="text-info">Al Noman</h5>
+                                <p>Developer, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
+                                class="card-img-top h-25 w-25 mt-5 mb-2 mx-auto rounded-circle" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <p class="text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </p>
+                                <h5 class="text-info">Al Noman</h5>
+                                <p>Developer, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
+                                class="card-img-top h-25 w-25 mt-5 mb-2 mx-auto rounded-circle" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </p>
+                                <h5 class="text-info">Al Noman</h5>
+                                <p>Developer, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- aks que -->
+            <section class="bg-danger bg-opacity-10 p-5 text-center p-5">
+                <h1 class="mb-5">Frequently asked <span class="text-warning">Question</span></h1>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <img class="img-fluid w-75" src="./images/jon-tyson-hhq1Lxtuwd8-unsplash.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Accordion Item #1
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Accordion Item #2
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Accordion Item #3
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer  -->
+        <footer class="bg-primary-subtle p-5">
+            <div class="row">
+                <div class="col ">
+                    <p>
+                        <a href="">download</a>
+                        <a href="">download</a>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 flex-row">
+                        <li class="me-3"><a class="nav-link fw-semibold text-what" href="">Abut</a></li>
+                        <li class="me-3"><a class="nav-link fw-semibold" href="">Abut</a></li>
+                        <li class="me-3"><a class="nav-link fw-semibold" href="">Abut</a></li>
+                        <li class="me-3"><a class="nav-link fw-semibold" href="">Abut</a></li>
+                        <li class="me-3"><a class="nav-link fw-semibold" href="">Abut</a></li>
+                        <li class="me-3"><a class="nav-link fw-semibold" href="">Abut</a></li>
+                    </ul>
+                    <p>&copy; Alright reseve -2023</p>
+                </div>
+                <div class="col"></div>
+            </div>
+        </footer>
+    </div>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
